@@ -5,7 +5,7 @@ class App extends React.Component {
   render() {
     /*return (
       <div>
-        <AlertButton text="AlphaCamp"/>
+        <AlertButton text="HelloJS"/>
         <AlertButton text="React"/>
         <AlertButton text="Basic"/>
       </div>
@@ -13,7 +13,7 @@ class App extends React.Component {
 
     return (
       React.createElement('div', null,
-        React.createElement(AlertButton, { text: 'AlphaCamp' }),
+        React.createElement(AlertButton, { text: 'HelloJS' }),
         React.createElement(AlertButton, { text: 'React' }),
         React.createElement(AlertButton, { text: 'Basic' })
       )
